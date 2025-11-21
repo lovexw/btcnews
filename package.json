@@ -1,0 +1,24 @@
+{
+  "name": "btc-news-aggregator-2025",
+  "version": "3.0.0",
+  "description": "BTC新闻聚合器 - 部署在Cloudflare Workers上，每30分钟自动抓取金色财经BTC相关新闻",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail",
+    "login": "wrangler login"
+  },
+  "keywords": [
+    "bitcoin",
+    "btc",
+    "news",
+    "aggregator",
+    "cloudflare-workers"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
