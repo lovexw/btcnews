@@ -1,0 +1,25 @@
+# Cloudflare Workers 配置文件
+# 项目：BTC新闻聚合器 2025
+# 数据源：金色财经
+# 更新频率：每30分钟
+
+name = "btc-news-aggregator-2025"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+# KV 数据库绑定
+[[kv_namespaces]]
+binding = "BTC_NEWS_KV"
+id = "6514ec5dffd14610b39e8a85c0309496"
+
+# Cron 定时任务 - 每30分钟执行一次
+[triggers]
+crons = ["*/30 * * * *"]
+
+# 部署配置
+[build]
+command = ""
+
+# 环境变量（可选）
+[vars]
+ENVIRONMENT = "production"

@@ -1,0 +1,39 @@
+BTC 新闻聚合器 2025 - 文件清单
+=====================================
+
+核心文件：
+✅ src/index.js (20.4KB) - 主应用代码
+✅ wrangler.toml (502B) - Cloudflare Workers 配置
+✅ package.json (553B) - 项目依赖配置
+✅ .gitignore (321B) - Git 忽略规则
+
+文档文件：
+✅ README.md (4.8KB) - 项目完整说明
+✅ DEPLOYMENT.md (8.4KB) - 详细部署文档  
+✅ 部署教程.md (3.7KB) - 5分钟快速部署
+✅ PROJECT_SUMMARY.md (3.6KB) - 配置摘要
+✅ VERIFICATION.md (1.7KB) - 配置验证清单
+✅ 快速开始.md - 快速开始指南
+✅ 文件清单.txt - 本文件
+
+旧文件（可删除）：
+⚠️  index.js (21KB) - 旧的打包文件
+
+配置信息：
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+关键词: BTC, bitcoin, 中国, 中本聪, 特朗普, 美联储
+起始ID: 488209
+获取位置: https://www.jinse.cn/lives/488209.html
+更新频率: 每30分钟
+KV名称: btcnews2025
+KV ID: 6514ec5dffd14610b39e8a85c0309496
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+下一步操作：
+1. npm install
+2. npm run login
+3. npm run deploy
+4. 访问部署的URL
+5. 访问 /api/refresh 触发首次抓取
+
+所有文件已准备就绪，可以开始部署！
